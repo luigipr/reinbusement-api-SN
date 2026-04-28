@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="78be7e95c3a4c310ae86ffbc05013100" sys_domain="global" table="x_1523510_reimbu_0_reimbursements" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 20:49:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78be7e95c3a4c310ae86ffbc0501312c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1523510_reimbu_0_reimbursements" name="x_1523510_reimbu_0_reimbursements" sys_domain="global" view="Default view">78be7e95c3a4c310ae86ffbc05013100</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1523510_reimbu_0_reimbursements" sys_domain="global" view="Default view">371a5481c3240310ae86ffbc050131db</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 20:49:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1523510_reimbu_0_reimbursements</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-28 20:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78be7e95c3a4c310ae86ffbc05013100</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523510_reimbu_0_reimbursements</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+            <sys_update_name>sys_ui_form_sections_78be7e95c3a4c310ae86ffbc05013100</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-28 20:49:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

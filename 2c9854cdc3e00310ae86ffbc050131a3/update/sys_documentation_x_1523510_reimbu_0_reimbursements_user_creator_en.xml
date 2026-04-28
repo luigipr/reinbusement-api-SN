@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="user_creator" label="User Creator" language="en" table="x_1523510_reimbu_0_reimbursements">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>user_creator</element>
+            <help/>
+            <hint/>
+            <label>User Creator</label>
+            <language>en</language>
+            <name>x_1523510_reimbu_0_reimbursements</name>
+            <plural>User Creators</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-27 16:16:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User Creator</sys_name>
+            <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+            <sys_update_name>sys_documentation_x_1523510_reimbu_0_reimbursements_user_creator_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-27 16:16:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
