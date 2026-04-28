@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b98ad0c1c3240310ae86ffbc050131cf" label="Category" max_length="40" name="x_1523510_reimbu_0_category" type="collection">
+        <element label="Group" max_length="32" name="group" reference="sys_user_group" type="reference"/>
+        <element display="true" label="Name" mandatory="true" max_length="400" name="name" type="string"/>
+        <index name="index">
+            <element name="group"/>
+        </index>
+    </element>
+</database>
