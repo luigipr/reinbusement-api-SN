@@ -16,7 +16,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>reimburse_lifecycle</internal_name>
-        <label_cache>[{"name":"Created_1.current.x_1523510_nowflix_category.group","label":"Trigger - Record Created➛Reimbursements Record➛Category➛Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1523510_reimbu_0_category","column_name":"group","usedInstances":{"152a697e-a7af-484a-8ea8-a78c8d57e129":["approval_conditions"]}},{"name":"Created_1.current.group_list","label":"Trigger - Record Created➛Reimbursements Record➛Group list","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"x_1523510_reimbu_0_reimbursements","column_name":"group_list","usedInstances":{}},{"name":"{{static.c88cb8c1c3280310ae86ffbc050131b9}}","label":"Reinbursement Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"907b8246-3ce3-4605-9518-dc45d0cce090":["approval_conditions"]}},{"name":"{{static.b57d3845c3280310ae86ffbc05013107}}","label":"Reinbursement Resolvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"907b8246-3ce3-4605-9518-dc45d0cce090":["approval_conditions"],"152a697e-a7af-484a-8ea8-a78c8d57e129":["approval_conditions"]}},{"name":"Created_1.current.approval","label":"Trigger - Record Created➛Reimbursements Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1523510_reimbu_0_reimbursements","column_name":"approval","choices":[{"image":"","label":"Not Yet Requested","used":false,"reference":false,"rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"not requested","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"Requested","used":false,"reference":false,"rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"Approved","used":false,"reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"766e2f0b-f6ea-4b8e-a17b-75f6dd01e265":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Reimbursements Record","reference":"x_1523510_reimbu_0_reimbursements","reference_display":"Reimbursements","type":"reference","base_type":"reference","usedInstances":{"1b248bad-5156-4d39-acc9-169faee6c41d":["record"],"907b8246-3ce3-4605-9518-dc45d0cce090":["record"],"e39453b5-a97a-4c06-9be7-3dad4438556f":["record"],"6d222e59-3368-4ab7-91e0-ae76e68a7cbd":["record"],"152a697e-a7af-484a-8ea8-a78c8d57e129":["record"],"354c3f50-dfde-4c40-8603-dd3f752feacc":["record"],"3ff8ca51-4e20-43eb-97fc-61ee2c44877a":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Reimbursements Record","reference":"x_1523510_reimbu_0_reimbursements","reference_display":"Reimbursements","type":"reference","base_type":"reference","usedInstances":{"1b248bad-5156-4d39-acc9-169faee6c41d":["record"],"907b8246-3ce3-4605-9518-dc45d0cce090":["record"],"e39453b5-a97a-4c06-9be7-3dad4438556f":["record"],"6d222e59-3368-4ab7-91e0-ae76e68a7cbd":["record"],"152a697e-a7af-484a-8ea8-a78c8d57e129":["record"],"354c3f50-dfde-4c40-8603-dd3f752feacc":["record"],"3ff8ca51-4e20-43eb-97fc-61ee2c44877a":["record"]},"attributes":{}},{"name":"Created_1.current.approval","label":"Trigger - Record Created➛Reimbursements Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1523510_reimbu_0_reimbursements","column_name":"approval","choices":[{"image":"","label":"Not Yet Requested","used":false,"reference":false,"rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"not requested","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"Requested","used":false,"reference":false,"rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"Approved","used":false,"reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"task","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"766e2f0b-f6ea-4b8e-a17b-75f6dd01e265":["condition"]}},{"name":"{{static.b57d3845c3280310ae86ffbc05013107}}","label":"Reinbursement Resolvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"907b8246-3ce3-4605-9518-dc45d0cce090":["approval_conditions"],"152a697e-a7af-484a-8ea8-a78c8d57e129":["approval_conditions"]}},{"name":"{{static.c88cb8c1c3280310ae86ffbc050131b9}}","label":"Reinbursement Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"907b8246-3ce3-4605-9518-dc45d0cce090":["approval_conditions"]}},{"name":"Created_1.current.group_list","label":"Trigger - Record Created➛Reimbursements Record➛Group list","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"x_1523510_reimbu_0_reimbursements","column_name":"group_list","usedInstances":{}},{"name":"Created_1.current.x_1523510_nowflix_category.group","label":"Trigger - Record Created➛Reimbursements Record➛Category➛Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1523510_reimbu_0_category","column_name":"group","usedInstances":{"152a697e-a7af-484a-8ea8-a78c8d57e129":["approval_conditions"]}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <master_snapshot_digest/>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c09f0ed5c320c310ae86ffbc050131e3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Reimburse LifeCycle</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
         <sys_update_name>sys_hub_flow_c09f0ed5c320c310ae86ffbc050131e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-28 20:05:49</sys_updated_on>
+        <sys_updated_on>2026-04-28 23:21:00</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -276,13 +276,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-28 20:05:49</sys_created_on>
         <sys_id>14c43a91c364c310ae86ffbc050131a5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-28 20:05:49</sys_updated_on>
+        <sys_updated_on>2026-04-28 23:21:00</sys_updated_on>
         <ui_id>3ff8ca51-4e20-43eb-97fc-61ee2c44877a</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/8WW207jMBCGXwXluqnipGlS7laLkJBYkLosNysU+TAGS84Bxyl0q777jtP0kNICQrB7V4/t8T//+Kvze+Ep4Z16I5EKMZEkkISQgAQxCUkKKTCejBMIU2/gFTQHXGmAl0bgeEZ14wKLxXcD1ILIyJA3xkBhl0ucF6quNJ3fdsswwh+UFjjvnf6+G3gVNZjRgvFOF3tTdl5BpikDjRvPSt7kmPTk4gxzvFftevd0LXdfvjsDx6LLnikXxCmnhww8eLZQCMDTJNU1DLycFoLa0sw3EaxaXBd6G3hQhV1VmtPnWv3B/FHo1knA0njnwmaYdQ6tzSkVh+vKqrJYRSxleu1cqZu8uFqV4LwFSRttd7xtaswHldPsRFjToCD586F8mq7PO1dFW12nVpec6s2IWmsUayzUrh2NukF7Lg92ADS0huW0qlRxn1WmnKk2McrMh/caB0OpyyfUU6v7Yki5q2mI7tHhOcbP2vAtNcoV+APT4OZBd+aLljTqV6EeG7hwjRckSKJJwP0kjCN/FHDqs1Qwn7JQxqPROB0z4i1bj7PHxpW3cqvzJWutbX3N2vuAS2tuVGW/ocYZdG4sBx0VKXntnkXh9lrt5NyS8ZyROIxiEmQGVM6abP3D1K2F9UtKpvvzH2Pmxsk5uVrJeW8pvc1HSuuo6cU6aMJPgyYN/g80naJPoqbXgy+HpteRHjOcMSYZTHzCOPdHCaR+GtLEhzjgkQyjIEjkm8y8Rcro9eu1834UpVVScdq2bMsKBZYCxBMeAcoiAYV0LCXjQRyQiMjwECqyKcTJFJyXID7MyqbTm9fl7VrWe6/6xRwusWPG7JzTIRO9jszqT/wjz0w9r2Hmmgc5VTpbXaYjGO3VcBypY0l7nFEpgbuPAalAC7w8WbvnH7xZPdcRCMy2AeTyQK+/HMndhtdgs86AzCXIZGly6trY1rLP7GhCIInC1J+MQ2QWothnIop8ggwDUJCh+Ix37u4vA+TPR/8JAAA=</values>
+        <values>H4sIAAAAAAAA/8WWXU/bMBSG/wrKdVPFSdOk3E1DSEgbSB3jBqHIH8dgyfnAcQpd1f++4yT9pAXE2HZXH9vH73mPnzq3C08J79QbiVSIiSSBJIQEJIhJSFJIgfFknECYegOvoDngSgO8NALHM6obF1gsvhqgFkRGhrwxBgq7XOK8UHWl6fymX4YR/qC0wHnv9PZu4FXUYEYLxjtd7E3ZeQWZpgw0bjwreZNj0pOLM8zxXrWr3dOV3H357gwciz57plwQp5weMvDg2UIhAE+TVNcw8HJaCGpLM19HsGpxVehN4EEVtqs0p8+1+oX5o9Ctk4Cl8d6F9TDrHVqZUyoOV5VVZdFFLGV65Vypm7y47Epw3oKkjbZb3jY15oPKaXYirGlQkPzxUD5NV+edq6KtrlerS071ekStNYo1FmrXjkZdH7KnC3872BjQ0C7MaVWp4j6rTDlT7XmoPh/eaxwMpS6fUGat7osh5a7UIZpKh+cYP2vDN9QoV/d3TIOb3Zk/C/XYwIVrvCBBEk0C7idhHPmjgFOfpYL5lIUyHo3G6ZgRb9l6nD02rrzOrd6XrLW29TVr7wMurblRlf2CYmbQu7Ec9FSk5LV7FoWba7WVc0PGc0biMIpJkBlQOWuy1Q9Tt17VLymZ7s9/jJlrJ+fkspPz3lJ2Nh8pradmJ9ZDE34aNGnwf6DpFf05NTv27EKz05l/wgxnjEkGE58wzv1RAqmfhjTxIQ54JMMoCBL5JjNvkTJ6/XptvR9FaZVUnLYt27BCgaUA8YRHgLJIQCEdS8l4EAckIjI8hIpsCnEyBecaiA+zsu70+nV5u5bV3svdYg6X2DNjts7pkYleR6b7E//IM1PPa5i55kFOlc66a3MEo70ajiN1LOkOZ1RK4O5jQCrQAi9P1u75B2/WjuvIIGZ7Qd92r/8efNcvG16DzXoDMpcgk6XJqWtjW8s+s6MJgSQKU38yDpFZiGKfiSjyCTIMQEGG4jPeubvfRhUtd/8JAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=14c43a91c364c310ae86ffbc050131a5"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -300,13 +300,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-28 18:07:02</sys_created_on>
         <sys_id>1c99d25dc360c310ae86ffbc05013107</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-28 19:03:36</sys_updated_on>
+        <sys_updated_on>2026-04-28 23:21:00</sys_updated_on>
         <ui_id>e39453b5-a97a-4c06-9be7-3dad4438556f</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1UTWsbMRD9K0bnZVl5bZP4VmoMPTQBt+SSBqGVxo5A+1F9OHaN/3tHu1rHcdrUBEMpdE+rmdGb90aPud8RJcmUjEBm9JpORE7zfJhlw6sRLSZ5QYcy5wCUJKTiJWClAVEbiec11z4EdruPBrgDyWgqvDFQuf0e81LZRvPtXSzDiHhUWmKeTO8fEtJwg4gODJnuTlJu2wDTvACNF2e18CWCDj7NEONctv3tRU/3lH7ogWcZ0ZkKQUwFPjRLCGwcVBKw3ZJrCwkpeSW5q82WTJ3xGEDV8rbS20PFo6pcp7TkG6t+IP4oC3VLQGkiTuFwZHFC/XBqJeC2caquuojjhe4nV2tfVjedhDBbWHKv3dFsvUU8aALlQKJjuPzyWD8t+n5zVbXqIltdC64PJ+6cUYV3YMNzgIZ2KCVvGlWtWGPqtWovI5UyXWk8pEtdP2FPq1ZVykXgneKAeDrH+KwN33GjgojPCIOX96149t2Hvp2MSJi1mlvBrH0oLLXCqMZ9QOA1RJr7JNq1GL9lAHH9/N5HmM+W3TA6HuZjmjEDqiw863+MbXXb1/ZdnObfZ+avgc7gpqNzrpQXl38jLdr5RSy6eXwxN1/9JTdHRv+Ynf9k4mz45hY7eunWt/bIwNbhwv3msyyX+WuvnmTf6VQoEdPBoENNzubcA8wVaGl/IaK3amzA1rHBYflezK90krXf/x18wR388BPlRyv0NAgAAA==</values>
+        <values>H4sIAAAAAAAA/+1UTWsbMRD9K0bnZVl5bZP4VmoMPTQBt+SSBqGVxo5A+1F9OHaN/3tHu1rHcdrUBEMpdE+rmdGb90aPud8RJcmUjEBm9JpORE7zfJhlw6sRLSZ5QYcy5wCUJKTiJWClAVEbiec11z4EdruPBrgDyWgqvDFQuf0e81LZRvPtXSzDiHhUWmKeTO8fEtJwg4gODJnuTlJu2wDTvACNF2e18CWCDj7NEONctv3tRU/3lH7ogWcZ0ZkKQUwFPjRLCGwcVBKw3ZJrCwkpeSW5q82WTJ3xGEDV8rbS20PFo6pcp7TkG6t+IP4oC3VLQGkiTuFwZHFC/XBqJeC2caquuojjhe4nV2tfVjedhDBbWHKv3dFsvUU8aALlQKJjuPzyWD8t+n5zVbXqIltdC64PJ+6cUYV3YMNzgIZ2KCVvGlWtWGPqtWovI5UyXWk8pEtdP2FPq1ZVykXgneKAeDrH+KwN33GjgojPCIOX96149t2Hvp2MSJi1mlvBrH0oLLXCqMZ9QOA1RJr7JNq1GL9lAHH9/N5HmM+W3TA6HuZjmjEDqiw863+MbXXb1/ZdnObfZ+avgc7gpqNzrpQXl38jLdr5RSy6eXwxN1/9JTdHRv+Ynf9k4mz45hY7eunWt/bIwNbhwv3msyyX49dePcm+06lQIqaDQYeanM25B5gr0NL+QkRv1diArWODw/K9mF/pJGu//zv4gjv44Sdw++ctNAgAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1c99d25dc360c310ae86ffbc05013107"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -401,10 +401,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-28 18:07:02</sys_created_on>
         <sys_id>d099d25dc360c310ae86ffbc05013105</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-28 20:05:49</sys_updated_on>
+        <sys_updated_on>2026-04-28 23:21:00</sys_updated_on>
         <ui_id>766e2f0b-f6ea-4b8e-a17b-75f6dd01e265</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+2U22obMRCGX6Xoeln2EJvGN8WkBAptA03ITRuWWWnWFtVKqqS14xq/e0d7cEzj0AO97N3qH83MP6OP3TPTBdsFf2eW3suVZovPDwmTOmr0vWcaWmQLxo0WMkijq15I2AZUFwNLa53ZoHhDmpDeKtjdnwnxtVTC4VjfgqMqAR1b7H8KhZ3FSkGNiircBif1itKloFOTQZNf8pyXxbwssqx4fZHX87LOC1ECQkn3psSrye6r972SvDhH7Ee6nzoZJ6KtPEsYPgbUAql1A8pjwlrQAoJxu6PiEMSNVk/CWupA5Vi8/Ojld6pdzGbxYoM0I8cheDxW484Gma+N5Hhjo8FBCVCrMYcb1bX64zBH3DY20KkwbZuUzlM9tNF0dDFaam7XZvtpangtdT/gGFSGgzqeINAa6i6gjw+DClsqVLVgLS2niq8p+2Ty0qYrRYe0UWZLTSM7KfBoPKUdQXpN+ttevgcn4xQfqAwlDzZr8JJXPWdULjga4dCvpfrWRUPDgOMo1bANuuC5kzYsqc8GR9eH5DmkJ3zu91f0SAFFlae8c7SDkEIPJqjD4UuXZaWAEdTnCP9h9r+g/BJmzSzPZucpv5ifo/wM3y+jXfwC7fgYv0l2lmX/0T5FW/pqQHScrW/+12Q/RIyHDn7gRiCXnozcRe3d9JeOgR0BIPmptDXuaxzhSTv8ALEhAMLvBQAA</values>

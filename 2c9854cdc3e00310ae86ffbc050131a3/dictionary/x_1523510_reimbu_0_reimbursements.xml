@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="af1a5481c3240310ae86ffbc05013103" extends="task" label="Reimbursements" max_length="40" name="x_1523510_reimbu_0_reimbursements" type="collection">
         <element label="Event Date" max_length="40" name="incident_date" type="glide_date"/>
+        <element label="Reproval Reason" max_length="400" name="reproval_reason" type="string_full_utf8"/>
         <element label="Value (BRL)" mandatory="true" max_length="10" name="value_brl" type="integer"/>
         <element label="Annex" mandatory="true" max_length="40" name="annex" type="file_attachment"/>
         <element choice="1" label="Integration State" max_length="40" name="integration_state" type="choice">
