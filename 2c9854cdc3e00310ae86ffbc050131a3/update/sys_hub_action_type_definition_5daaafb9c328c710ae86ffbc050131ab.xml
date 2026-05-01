@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27800</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>04a41174c3d8c310ae86ffbc05013189</copied_from>
+        <copied_from_name>Convert seconds into Duration</copied_from_name>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>copy_of_convert_seconds_into_duration</internal_name>
+        <label_cache>[{"name":"{{action.seconds}}","label":"action➛seconds","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[803e547c-0d8c-4ff5-bba6-90e234e4a515].duration}}","label":"step➛Script step➛duration","type":"step","ref":"","reference_display":"","base_type":"glide_duration","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>05daa7f9c328c710ae86ffbc05013185</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Copy of Convert seconds into Duration</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5daaafb9c328c710ae86ffbc050131ab</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Copy of Convert seconds into Duration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_5daaafb9c328c710ae86ffbc050131ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=5daaafb9c328c710ae86ffbc050131ab"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5daaafb9c328c710ae86ffbc050131ab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>5daaafb9c328c710ae86ffbc050131ab</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>25aaefb9c328c710ae86ffbc05013169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:15</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">d9aaefb9c328c710ae86ffbc05013156</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>5daaafb9c328c710ae86ffbc050131ab</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>69aaefb9c328c710ae86ffbc05013169</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:02</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD91aaefb9d228c7109f2adb1f10b16b38":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD91aaefb9d228c7109f2adb1f10b16b38.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4efe1097-c581-448d-8c6c-428a0e18f7c3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD91aaefb9d228c7109f2adb1f10b16b38\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">d5aaefb9c328c710ae86ffbc05013143</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>5daaafb9c328c710ae86ffbc050131ab</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>edaaefb9c328c710ae86ffbc05013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:15</sys_updated_on>
+        <value/>
+        <variable display_value="duration">51aaefb9c328c710ae86ffbc0501313b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5daaafb9c328c710ae86ffbc050131ab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>duration</field>
+        <id>5daaafb9c328c710ae86ffbc050131ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>a1aaefb9c328c710ae86ffbc05013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:15</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab</table>
+        <value>{{step[803e547c-0d8c-4ff5-bba6-90e234e4a515].duration}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>5daaafb9c328c710ae86ffbc050131ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>2daaefb9c328c710ae86ffbc05013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:15</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>5daaafb9c328c710ae86ffbc050131ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>e5aaefb9c328c710ae86ffbc05013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:15</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=5daaafb9c328c710ae86ffbc050131ab^sys_idNOT IN59aaafb9c328c710ae86ffbc050131f5"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</action>
+        <cid>803e547c-0d8c-4ff5-bba6-90e234e4a515</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>59aaafb9c328c710ae86ffbc050131f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=59aaafb9c328c710ae86ffbc050131f5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>59aaafb9c328c710ae86ffbc050131f5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>51aaefb9c328c710ae86ffbc05013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <value/>
+        <variable display_value="">ddaaafb9c328c710ae86ffbc050131fc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>59aaafb9c328c710ae86ffbc050131f5</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>59aaefb9c328c710ae86ffbc05013131</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+outputs.duration = new GlideDuration(inputs.seconds * 1000)&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>59aaafb9c328c710ae86ffbc050131f5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>99aaefb9c328c710ae86ffbc05013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=59aaafb9c328c710ae86ffbc050131f5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>59aaafb9c328c710ae86ffbc050131f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>d1aaefb9c328c710ae86ffbc05013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>59aaafb9c328c710ae86ffbc050131f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>d5aaefb9c328c710ae86ffbc05013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>seconds</field>
+        <id>59aaafb9c328c710ae86ffbc050131f5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>9daaefb9c328c710ae86ffbc05013132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_59aaafb9c328c710ae86ffbc050131f5</table>
+        <value>{{action.seconds}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_59aaafb9c328c710ae86ffbc050131f5^id=59aaafb9c328c710ae86ffbc050131f5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=59aaafb9c328c710ae86ffbc050131f5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=59aaafb9c328c710ae86ffbc050131f5"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=59aaafb9c328c710ae86ffbc050131f5^sys_idNOT INddaaafb9c328c710ae86ffbc050131fc"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">59aaafb9c328c710ae86ffbc050131f5</model>
+        <model_id>59aaafb9c328c710ae86ffbc050131f5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_59aaafb9c328c710ae86ffbc050131f5</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>ddaaafb9c328c710ae86ffbc050131fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=59aaafb9c328c710ae86ffbc050131f5^sys_idNOT IN59aaefb9c328c710ae86ffbc05013105"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=7134a3c9-352f-43b1-a823-b69ac683c8c9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>duration</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">59aaafb9c328c710ae86ffbc050131f5</model>
+        <model_id>59aaafb9c328c710ae86ffbc050131f5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_59aaafb9c328c710ae86ffbc050131f5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>59aaefb9c328c710ae86ffbc05013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=59aaafb9c328c710ae86ffbc050131f5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_59aaafb9c328c710ae86ffbc050131f5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>9daaefb9c328c710ae86ffbc05013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=5daaafb9c328c710ae86ffbc050131ab^sys_idNOT IN91aaafb9c328c710ae86ffbc050131b8"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=01849ad5-4569-4fca-a180-c761460814fa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>seconds</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</model>
+        <model_id>5daaafb9c328c710ae86ffbc050131ab</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_5daaafb9c328c710ae86ffbc050131ab</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>91aaafb9c328c710ae86ffbc050131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=91aaafb9c328c710ae86ffbc050131b8"/>
+    <sys_hub_action_output action="delete_multiple" query="model=5daaafb9c328c710ae86ffbc050131ab^sys_idNOT IN51aaefb9c328c710ae86ffbc0501313b,d5aaefb9c328c710ae86ffbc05013143,d9aaefb9c328c710ae86ffbc05013156"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=90f8669f-b17c-4658-a65a-3c83d26f622e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>duration</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</model>
+        <model_id>5daaafb9c328c710ae86ffbc050131ab</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>51aaefb9c328c710ae86ffbc0501313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=51aaefb9c328c710ae86ffbc0501313b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=51aaefb9c328c710ae86ffbc0501313b"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD91aaefb9d228c7109f2adb1f10b16b38</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>2c9854cdc3e00310ae86ffbc050131a3</scope_name>
+        <serialized_content>{"FlowDesigner:FD91aaefb9d228c7109f2adb1f10b16b38":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD91aaefb9d228c7109f2adb1f10b16b38.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4efe1097-c581-448d-8c6c-428a0e18f7c3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD91aaefb9d228c7109f2adb1f10b16b38\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95aaefb9c328c710ae86ffbc05013138</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:02</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD91aaefb9d228c7109f2adb1f10b16b38,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=4efe1097-c581-448d-8c6c-428a0e18f7c3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</model>
+        <model_id>5daaafb9c328c710ae86ffbc050131ab</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>d5aaefb9c328c710ae86ffbc05013143</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d5aaefb9c328c710ae86ffbc05013143"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d5aaefb9c328c710ae86ffbc05013143"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=302b1e2c-80ae-4212-88da-15aa00e3bdb5,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</model>
+        <model_id>5daaafb9c328c710ae86ffbc050131ab</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>d9aaefb9c328c710ae86ffbc05013156</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d9aaefb9c328c710ae86ffbc05013156"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d9aaefb9c328c710ae86ffbc05013156"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5daaafb9c328c710ae86ffbc050131ab"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=5daaafb9c328c710ae86ffbc050131ab^sys_idNOT IN21aaefb9c328c710ae86ffbc0501316d"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>21aaefb9c328c710ae86ffbc0501316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:15</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=21aaefb9c328c710ae86ffbc0501316d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>seconds</element>
+        <help/>
+        <hint/>
+        <label>seconds</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5daaafb9c328c710ae86ffbc050131ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>d1aaafb9c328c710ae86ffbc050131bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_5daaafb9c328c710ae86ffbc050131ab"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:14</sys_created_on>
+        <sys_id>11aaefb9c328c710ae86ffbc05013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>15aaefb9c328c710ae86ffbc05013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:18:15</sys_created_on>
+        <sys_id>6daaefb9c328c710ae86ffbc0501315f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:18:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_5daaafb9c328c710ae86ffbc050131ab"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=5daaafb9c328c710ae86ffbc050131ab^sys_idNOT IN55dae7f9c328c710ae86ffbc0501313b"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"55dae7f9c328c710ae86ffbc0501313b","name":"plan","plan_signature":null}}</plan>
+        <snapshot>5ddaa7f9c328c710ae86ffbc050131fa</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55dae7f9c328c710ae86ffbc0501313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:04</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27800</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>04a41174c3d8c310ae86ffbc05013189</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>copy_of_convert_seconds_into_duration</internal_name>
+        <label_cache>[{"name":"{{action.seconds}}","label":"action➛seconds","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[803e547c-0d8c-4ff5-bba6-90e234e4a515].duration}}","label":"step➛Script step➛duration","type":"step","ref":"","reference_display":"","base_type":"glide_duration","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>Copy of Convert seconds into Duration</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05daa7f9c328c710ae86ffbc05013185</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:02</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=05daa7f9c328c710ae86ffbc05013185"/>
+    <sys_variable_value action="delete_multiple" query="document_key=05daa7f9c328c710ae86ffbc05013185"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>05daa7f9c328c710ae86ffbc05013185</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>5ddaa7f9c328c710ae86ffbc050131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <value/>
+        <variable display_value="duration">45daa7f9c328c710ae86ffbc050131d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>05daa7f9c328c710ae86ffbc05013185</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>91daa7f9c328c710ae86ffbc050131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">55daa7f9c328c710ae86ffbc050131e5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>05daa7f9c328c710ae86ffbc05013185</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>d5daa7f9c328c710ae86ffbc050131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">89daa7f9c328c710ae86ffbc050131de</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=05daa7f9c328c710ae86ffbc05013185"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>duration</field>
+        <id>05daa7f9c328c710ae86ffbc05013185</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>11daa7f9c328c710ae86ffbc050131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185</table>
+        <value>{{step[803e547c-0d8c-4ff5-bba6-90e234e4a515].duration}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>05daa7f9c328c710ae86ffbc05013185</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>99daa7f9c328c710ae86ffbc050131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>05daa7f9c328c710ae86ffbc05013185</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>55daa7f9c328c710ae86ffbc050131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=05daa7f9c328c710ae86ffbc05013185^sys_idNOT INc1daa7f9c328c710ae86ffbc0501319a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Convert seconds into Duration">05daa7f9c328c710ae86ffbc05013185</action>
+        <cid>803e547c-0d8c-4ff5-bba6-90e234e4a515</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:02</sys_created_on>
+        <sys_id>c1daa7f9c328c710ae86ffbc0501319a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c1daa7f9c328c710ae86ffbc0501319a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c1daa7f9c328c710ae86ffbc0501319a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>81daa7f9c328c710ae86ffbc050131d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <value/>
+        <variable display_value="seconds">8ddaa7f9c328c710ae86ffbc050131a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c1daa7f9c328c710ae86ffbc0501319a</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>8ddaa7f9c328c710ae86ffbc050131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+outputs.duration = new GlideDuration(inputs.seconds * 1000)&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c1daa7f9c328c710ae86ffbc0501319a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>c9daa7f9c328c710ae86ffbc050131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c1daa7f9c328c710ae86ffbc0501319a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>c1daa7f9c328c710ae86ffbc0501319a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>c1daa7f9c328c710ae86ffbc050131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>c1daa7f9c328c710ae86ffbc0501319a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>09daa7f9c328c710ae86ffbc050131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>seconds</field>
+        <id>c1daa7f9c328c710ae86ffbc0501319a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>cddaa7f9c328c710ae86ffbc050131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_c1daa7f9c328c710ae86ffbc0501319a</table>
+        <value>{{action.seconds}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c1daa7f9c328c710ae86ffbc0501319a^id=c1daa7f9c328c710ae86ffbc0501319a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=c1daa7f9c328c710ae86ffbc0501319a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c1daa7f9c328c710ae86ffbc0501319a"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c1daa7f9c328c710ae86ffbc0501319a^sys_idNOT IN8ddaa7f9c328c710ae86ffbc050131a0"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>seconds</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">c1daa7f9c328c710ae86ffbc0501319a</model>
+        <model_id>c1daa7f9c328c710ae86ffbc0501319a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_c1daa7f9c328c710ae86ffbc0501319a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:02</sys_created_on>
+        <sys_id>8ddaa7f9c328c710ae86ffbc050131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c1daa7f9c328c710ae86ffbc0501319a^sys_idNOT IN81daa7f9c328c710ae86ffbc050131a8"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=7134a3c9-352f-43b1-a823-b69ac683c8c9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>duration</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">c1daa7f9c328c710ae86ffbc0501319a</model>
+        <model_id>c1daa7f9c328c710ae86ffbc0501319a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c1daa7f9c328c710ae86ffbc0501319a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:02</sys_created_on>
+        <sys_id>81daa7f9c328c710ae86ffbc050131a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c1daa7f9c328c710ae86ffbc0501319a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_c1daa7f9c328c710ae86ffbc0501319a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>41daa7f9c328c710ae86ffbc050131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=05daa7f9c328c710ae86ffbc05013185^sys_idNOT IN49daa7f9c328c710ae86ffbc0501318c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=01849ad5-4569-4fca-a180-c761460814fa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>seconds</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">05daa7f9c328c710ae86ffbc05013185</model>
+        <model_id>05daa7f9c328c710ae86ffbc05013185</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_05daa7f9c328c710ae86ffbc05013185</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:02</sys_created_on>
+        <sys_id>49daa7f9c328c710ae86ffbc0501318c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=49daa7f9c328c710ae86ffbc0501318c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=05daa7f9c328c710ae86ffbc05013185^sys_idNOT IN45daa7f9c328c710ae86ffbc050131d7,55daa7f9c328c710ae86ffbc050131e5,89daa7f9c328c710ae86ffbc050131de"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=90f8669f-b17c-4658-a65a-3c83d26f622e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>duration</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">05daa7f9c328c710ae86ffbc05013185</model>
+        <model_id>05daa7f9c328c710ae86ffbc05013185</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>45daa7f9c328c710ae86ffbc050131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=45daa7f9c328c710ae86ffbc050131d7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=45daa7f9c328c710ae86ffbc050131d7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=302b1e2c-80ae-4212-88da-15aa00e3bdb5,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Convert seconds into Duration">05daa7f9c328c710ae86ffbc05013185</model>
+        <model_id>05daa7f9c328c710ae86ffbc05013185</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>55daa7f9c328c710ae86ffbc050131e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=55daa7f9c328c710ae86ffbc050131e5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=55daa7f9c328c710ae86ffbc050131e5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=4efe1097-c581-448d-8c6c-428a0e18f7c3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of Convert seconds into Duration">05daa7f9c328c710ae86ffbc05013185</model>
+        <model_id>05daa7f9c328c710ae86ffbc05013185</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>89daa7f9c328c710ae86ffbc050131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=89daa7f9c328c710ae86ffbc050131de"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=89daa7f9c328c710ae86ffbc050131de"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=05daa7f9c328c710ae86ffbc05013185"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=05daa7f9c328c710ae86ffbc05013185^sys_idNOT IN95daa7f9c328c710ae86ffbc050131f9"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of Convert seconds into Duration">05daa7f9c328c710ae86ffbc05013185</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>95daa7f9c328c710ae86ffbc050131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=95daa7f9c328c710ae86ffbc050131f9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>seconds</element>
+        <help/>
+        <hint/>
+        <label>seconds</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_05daa7f9c328c710ae86ffbc05013185</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:02</sys_created_on>
+        <sys_id>0ddaa7f9c328c710ae86ffbc05013192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_05daa7f9c328c710ae86ffbc05013185"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>9ddaa7f9c328c710ae86ffbc050131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>c1daa7f9c328c710ae86ffbc050131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:19:03</sys_created_on>
+        <sys_id>d5daa7f9c328c710ae86ffbc050131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:19:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_05daa7f9c328c710ae86ffbc05013185"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>5daaafb9c328c710ae86ffbc050131ab</sys_id>
+        <latest_snapshot>05daa7f9c328c710ae86ffbc05013185</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch11-12-16-2025_01-04-2026_2103.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

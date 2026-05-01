@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=10135000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27800</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>convert_brl_to_usd</internal_name>
+        <label_cache>[{"name":"347021e6-d925-42c9-9f2d-86e816c395e0.usd","label":"3 - convert BRL to USD➛USD","reference_display":"USD","type":"string","base_type":"string","usedInstances":{"fb5e7edc-c4e5-4dc3-983b-928adbc261fe":["usd-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5c0bb77d-7bd4-4e69-b05c-e03c5d87c83f"}},{"name":"flow_variable.retry_timeout","label":"Flow Variables➛Retry Timeout","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"c6a77164-5b91-42c2-8cdb-e804c47c4b95":["conditions"],"c3469816-44f7-4371-bcb6-49fd5f656f44":["seconds"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7cda0bf2-7664-4c86-9654-f6e7c7b73b48"}},{"name":"347021e6-d925-42c9-9f2d-86e816c395e0.__action_status__.code","label":"3 - convert BRL to USD➛Action Status➛Code","reference":"","reference_display":"Code","type":"integer","base_type":"integer","usedInstances":{"ee583a0b-fc94-447a-a42d-252b0ca2dd4c":["condition"]},"attributes":{}},{"name":"flow_variable.current_try","label":"Flow Variables➛Current Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"605e906d-68a3-4d8e-a343-59a3fc0929f8":["condition"],"024f100b-cb85-4453-ad31-d70f66a580de":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"22851337-c3f2-4486-ad01-ff3d0d7ec1f2"}},{"name":"flow_variable.retry_count","label":"Flow Variables➛Retry Count","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"605e906d-68a3-4d8e-a343-59a3fc0929f8":["condition"],"024f100b-cb85-4453-ad31-d70f66a580de":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"08276e3d-40c1-475a-9a41-4b4cffadc428"}},{"name":"flow_variable.integration_success","label":"Flow Variables➛Integration Success","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"605e906d-68a3-4d8e-a343-59a3fc0929f8":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"79711751-2eec-4362-b6b1-134652e9bc1a"}},{"name":"c3469816-44f7-4371-bcb6-49fd5f656f44.duration","label":"6 - Copy of Convert seconds into Duration➛duration","reference_display":"duration","type":"glide_duration","base_type":"glide_duration","usedInstances":{"6f4b6c9e-1042-4b7e-b9a9-1a3c60cf3a93":["timer_duration"]},"attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"90f8669f-b17c-4658-a65a-3c83d26f622e"}},{"name":"flow_variable.usd","label":"Flow Variables➛USD","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e0448035-9009-4c5e-b4cf-d6530b373c0c":["usd-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cf6d7b7e-07c8-4bda-9a4e-141c67a95d27"}}]</label_cache>
+        <master_snapshot>6c6c7ffdc3a8c710ae86ffbc050131e3</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Convert BRL to USD</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 11:54:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3967d775c3a4c710ae86ffbc05013190</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Convert BRL to USD</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name>sys_hub_flow_3967d775c3a4c710ae86ffbc05013190</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:08</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3967d775c3a4c710ae86ffbc05013190^id=3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3967d775c3a4c710ae86ffbc05013190^sys_idNOT INbd67d775c3a4c710ae86ffbc05013191"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3967d775c3a4c710ae86ffbc05013190</id>
+        <name>Convert BRL to USD</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 11:54:09</sys_created_on>
+        <sys_id>bd67d775c3a4c710ae86ffbc05013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 11:54:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bd67d775c3a4c710ae86ffbc05013191"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3967d775c3a4c710ae86ffbc05013190^sys_idNOT IN72c9bbb9c3a8c710ae86ffbc050131d6"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=38f73ce9-5e51-4a85-afa6-71669dee3037</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>usd</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>usd</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</model>
+        <model_id>3967d775c3a4c710ae86ffbc05013190</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_3967d775c3a4c710ae86ffbc05013190</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:24:25</sys_created_on>
+        <sys_id>72c9bbb9c3a8c710ae86ffbc050131d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=72c9bbb9c3a8c710ae86ffbc050131d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3967d775c3a4c710ae86ffbc05013190^sys_idNOT INdb19a7f5c328c710ae86ffbc05013146,fe4ce3bdc328c710ae86ffbc0501314b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="convert BRL to USD">d705efe5c3684710ae86ffbc050131ff</action_type>
+        <action_type_parent display_value="convert BRL to USD">effbaa29c3a04710ae86ffbc05013172</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>d705efe5c3684710ae86ffbc050131ff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>605e906d-68a3-4d8e-a343-59a3fc0929f8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>db19a7f5c328c710ae86ffbc05013146</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:39:03</sys_updated_on>
+        <ui_id>347021e6-d925-42c9-9f2d-86e816c395e0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=db19a7f5c328c710ae86ffbc05013146"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Copy of Convert seconds into Duration">05daa7f9c328c710ae86ffbc05013185</action_type>
+        <action_type_parent display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>05daa7f9c328c710ae86ffbc05013185</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>024f100b-cb85-4453-ad31-d70f66a580de</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:25:26</sys_created_on>
+        <sys_id>fe4ce3bdc328c710ae86ffbc0501314b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:45:08</sys_updated_on>
+        <ui_id>c3469816-44f7-4371-bcb6-49fd5f656f44</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/42Sy27bMBBF/4VrWZAa2Za9KxIECNA2QNNmEwTCmBzaBChS4cOJKvjfS5qMkiabLnk4jzt35mEigpEtaTYMYM039OJLS9d1BdiuON/RalnVF3VLSUEU9BgiLVKtmA3gCNJHMk1c6ufuCEbATmJp0Jmxc6JH7d3pFCKZsIOE8T4nBEIPQjKDimwfHgsygAnFHRqynT58/a86CTuU/8j7pNeNQwRCOdyHVgl8y3k3M9WGRSF1QfDFoWIYFHCQFgvSg2LgtBlnYhDYrZJv4BDKpxF7eLHiT+jYVDGOY5iJ5vHnZ5etSZhfgYM7Zzx13sxOaUHRJjcYcvDSXb5nKeB2cEKrlOLiGnK2lr5XP5IVZC7wbhPeBhE4xEGj8jwGvzvo55+vKq+FOnuSP6WmIOcXOGfEzruoZyJe/Ppoc0KfjUaJfejZ9TAMQu27weijOPcJsvtyL8OjPJ8WQyv2qgQaZyzDCqC8DvzqjO/z3X0PZXK/30o8ebyJp1PVbbMBtlw0y9Vm0XAKC6jbakHXq7pZVW3dcCCngtjRXkqw9s2qsKPuycdBk3HZoi65HFOoEYP7GkQdMbtxevwLFqg0xFEDAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fe4ce3bdc328c710ae86ffbc0501314b"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3967d775c3a4c710ae86ffbc05013190^sys_idNOT IN0fc9fbb9c3a8c710ae86ffbc0501312b,1b19a7f5c328c710ae86ffbc05013142,1b19a7f5c328c710ae86ffbc0501314b,3a4ce3bdc328c710ae86ffbc0501314d,47c9fbb9c3a8c710ae86ffbc0501312d,5b19a7f5c328c710ae86ffbc05013149,826fa7b5c368c710ae86ffbc0501310f,d319a7f5c328c710ae86ffbc05013145"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0bc9fbb9c3a8c710ae86ffbc0501312a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <flow_variables_assigned>integration_success,usd</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id>7c2d05e1-f43e-42ed-9376-a5e4db0346e0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:24:26</sys_created_on>
+        <sys_id>0fc9fbb9c3a8c710ae86ffbc0501312b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <ui_id>fb5e7edc-c4e5-4dc3-983b-928adbc261fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1XbWvbMBD+K8Of48zyu/utUAqFbYUl7ZdRjCydEzFZci25bRby33eKnaRvDFa2QVk+RXpOd/fc6TmZrD3d27a3Zq5PjREL5Z18u5l4QjkM12tPcO/E8yaeog3gSigLi45aoVVpesbAGDTeUdk7K8E1F6aVdHU9QrbDn4nHlkLyDsb4Le0wnIXOO1k/M9lVC6WkFUh0nqPzx3MqjQuxZZJXpKBZnbAozFlGAgp5WtcVC5KARCSM8NzO+eJA9cNsT/WXdbjkaKy0lkAVArrjjmQw8eDBguKAHGrHZ+I1VHFqdbfaIx1QfqnkAVhilqF7DX0w4gfGjgN3rgasl8Fg22/LsXUDzJZaMLhsHcUBsbSSow/Tsm/Ul6EW13SoaS/trumI9AbjQes4OxIjo3q21PdfdwnPhdqWNxqlZlTud9TaTlS9BeMuqRfz570ZoE+vXRVIaDBt2dC2FWpRtp2+E9tUyLyZLiRuprXU90jRqW5KmStzig2l03PEz7bwNe2Eq/kzhkFnl/JKidseLpwUsiIjJEuIHwIwP47S0K/SivgkitMkhKJihHqbbX/L295VNnRq7Ek5tBUPGNaJ1p4ihTsYy99MXii/N/yR0tfrKM6CkEDq8yJM/DhkhV/UIffzFHKSsqhIIJii02bzcijePBAzvBO12A1DnYesjmrOIvrKMETs0TBczc6elzKK3exC/nGt50Hw3tW+b85Tse+v4Z8IndUpz6oM/CBjuR9XnPoFjcEnMWFpRouEh9mbhX7jND1kPz74xwf/+OD/lQf/N72PH4f3MBn/xceBAxMGWc0dhYvd/wJnWKFgBHsM3evuu6vngG1+AnvSSaZhDAAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9f19a7f5c328c710ae86ffbc05013140</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <flow_variables_assigned>retry_count,retry_timeout,current_try</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>1b19a7f5c328c710ae86ffbc05013142</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <ui_id>935b8ad3-2ec1-492c-ae0f-e0edb4c266a7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YTU/jMBCG/wryuany4SYtN8QKCWl3kdgulxWKHHvcWus4wXGALuK/7zhJS9XCHlZcQLnFr52Zd8ZP1VGeSNW6unXNsjprGrUy5PTX7YQo4zV8fiKGlUBOiQVnNzmvWuPIhNwz3Xo1wWehmlqzzc2exNdKCwtDsJpZjOHAktOngy23qSHXrACNb14aBys8hekFLsMkWqSZnPEknvMsChnMUykLHs7CKIlA4rntm9fe3Mn5YO5Vxz4TimqXo7LCOwonBB4dGAGYUzLdwISUzAjmKrvZKRaYuDL6RVhjIAxH/OHHRv3B2DT05yRgcRz6vd0yH5rUy3xdKQ5XtVOV6RXHCj28wyvdluZ7X4NvL0jWardtLyptg/Gg9p69icGR/LGuHq63CS+U6cobNnXFmd6tmHNWFa2Dxt9Iq5aHvemlr0f3AhpKzJmXrK6VWeW1re5Vlwdtl9OVxsVU6uoB/XmYpoz7GqfYTTa9QP1LJ98wq3zB3zDMkO+nUXctXHb3Po+zFBIR0JBHAc1mLFgwik8F5VIywWk8J89dc/O71pfVt2loSN73FA803KranaGFexhqf54cAO1UCfgL2EM6DY+Z7rR3gZr+E2pJj6Be7gy+4XsE+6OAnXHBwkLGQZamNKB8ngaLdEYDmULGsyJLCvoeYPPWWn8cMdnDOjqmOnovqEURLdibUMdsD+rz3tzJsjP3quMR6I8CdBzPZ1GSZAFPkGpKEWgmwiiQMhGhyIBHMv5voG89u332fhDpUHvr730cSEbMP+pA8irY42AyAv5ZBpMDwMcBZQT7cwwoArhq0NXSW7jcfjPxGxskR/F96aGyv309L9rzXxJfRER9EQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5f19a7f5c328c710ae86ffbc0501314a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>ee583a0b-fc94-447a-a42d-252b0ca2dd4c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>1b19a7f5c328c710ae86ffbc0501314b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <ui_id>024f100b-cb85-4453-ad31-d70f66a580de</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U22rbQBD9FaNnIXSJTeO3kBIotA00IS9tEKPVyF662lX3Ysc1+vfOriTHJA4NIY958565nTOa432knO2cNbfqwhi+ktHy530ccekx+r2PJLQYLSOmZM0tV7IMQBxtQDgf4NbMpLIzu8aZAGNn3KIGn0lJNTedgN3da3LZmota48igA01zKBwt909CdtdhKaBCQS1vrOZyReW8pleTQpOds4wV+aLI0zT/dJZVi6LK8roAhILypsLLSdDsa0DiF5X6eYSbaZLStaeVpXGEDxZljTS6AWEwjlqQNVildwdEI9TXUjwCay4ttYt88oPhf6l3Pp/7xAZJI8MheHiW4xIHmK0VZ3jdhaUFxEIlxhqmhGvl90GHXz824ISd1k+IM9QPO0/asxgpNTdrtf0xDbziMggcg0IxEIcXWFpD5Swa/2FQYEuNyha6jpZTdlpteCgmLm2yEvRIGqG2NNRfVwLME09oR5BcEf45wHeguVfxjdpQ8UCzAsNZGS6R2llNEvqwlvKP84QGgaOUctgGJRimeWcvaM4GR9Z9/PyMjy54vw8MNyOJhDmtfUurd33/y6VpwZ6maKRgyZSTtu+f3/k7dHwPN5zDvJln6fy0G84Wp9xwwgcvWyD/jwX8R3ulA9I0/bDAsQW4KYdTHrWF4W92wL0/92GCGe6mRsYNEbn12Jfp/94HdnQAnB1DW6V/ewmPWP8PcUciHzkGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7e4ce3bdc328c710ae86ffbc0501314c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>024f100b-cb85-4453-ad31-d70f66a580de</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:25:26</sys_created_on>
+        <sys_id>3a4ce3bdc328c710ae86ffbc0501314d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <ui_id>6f4b6c9e-1042-4b7e-b9a9-1a3c60cf3a93</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YS2/bOBD+K4bOjlfUM/ataLZAD90uGiOXohAoamgTpSUtRSX1Gv7vS1KUrNiy83J2221PCWeoeX4znPHGKWpZ1rKaF2+qii1yZ/b5y9hhuaap/zdOjlfgzJysFliyIk/kugRn7NxiXms6fCs5I0wm7QXFy1hVcry+sVd+t1dGvStkyXgmwKorsVBaJAhnttljaXUJxylwJentsmBEa2eZOgXT2A8vURD7ro98100jBFEUxFFKIxxfhupe++GV1TyaN9Yfccr8mSkLrJpCZNom5Lpj5aiEPAOlmGJewdhZ4TzDshDrjiIAZx9zviMsWS6VPEdf/laxv5XwwNX3KCgHCTS87pjYwDXkxoomCa0fQ6E8lQnrgLsd72R8Aq7YtzAkQ1jegAzUl/EnCAK5xItBKWXHHZDjbVVWM6C45vLt+VxEZ3DRO5OLvnaxSd/H0rBmjq/hhVNuc04KXq/yPxoYOl1Abk5VVXPl6uHiqitlFZQarhp/Foz0elncfWqx9o7lxlbL5AXBvDthKQVLa6lTs3GAw0oJSla4LFm+SEpR3DLzsXJjNVlwdZhQXtwppbqFTDDRhkxUdeDJO0W/MuQbLJgOwAclRn28NcBP/qq13iYE1uLEBExfqIhgpXxDdL6scTpFtnp7OZBsBSIxXStRakGfe9k67EnPbkFXSvpv80a86UIpRVmEIpTGfuSpLuQHJCIQTQEQwlPP7XWhHqSMwSNj8EgbPLIWP9o126pM8A09sYxX6FlG1lOaVof6J4H+R0GuSnyVNNC0vhnlZ0B0k+td8l8Hwu9zCYvGDw3gS9f3fXdKQj/uAJxlAJTGKfIADQJ4B9UBmy02WafnFyZ/dEwOPIGbDfGDaHqJoosgoPFF4MfoIiWpOk5pFtIojGgQTNovt9tDCLujayBFnlXPb8c7uwyYgaIgJMdmwhQGZsJ9KPdcvd9kD+eF/3Au/AXnl8D5YAhMCqVWZ60HcEylMWUPtC35HCtMRnCA3PAIXL2oB9e5mRjE/mQ76hn+eBePLDr+d7PotEHez8XQQpMCLUT/rewI3W5weuV4QBl6kjLvxcN/h7vBgb/l7tWxFPX3WMathWSdnFrAetcsNHege6jm7y/xz24A//LagKgXZkcrP/ZPVP7huvAInx7aF4L/wVv2whoYfnLGP11tVGQJWc1fqRK6zLSVQNMwVEPbkUqIvPsjm0rASC5hRAuuIqtPPXOPuWHjJnqqLezDM8Le9+7DnqzyvhFDJXC9Y/8MY91zx7cvGomNpKqBVAaEVUrhXNPet79Wa8ZagYCRPumuEF+1qTva9h82Bdse9xYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8bc9fbb9c3a8c710ae86ffbc0501312c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>11</order>
+        <outputs_assigned>usd</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:24:26</sys_created_on>
+        <sys_id>47c9fbb9c3a8c710ae86ffbc0501312d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <ui_id>e0448035-9009-4c5e-b4cf-d6530b373c0c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/4WOywrCMBBF/2XWRVqLfe26dF/ciEgySXUwJiXpg1L67yao2J3Le++Z4Sxghr4beteY2jm6aajOC5CACvI9lpzzElNWYJ7ETBZZ23KMD3GSJiKDCDR7Sk8OTvgwMjWEtCytMtN1ZJYYV3Ln13X1uyDXKTaf/mB4JyWsDCKXCBxa6voaexr9UcuUk6uvSQfnN/L98IlCIjkyugndccOJ2esSbqvJ2Eew+HXrC432uPkRAQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9f19a7f5c328c710ae86ffbc05013148</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>605e906d-68a3-4d8e-a343-59a3fc0929f8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>5b19a7f5c328c710ae86ffbc05013149</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <ui_id>ee583a0b-fc94-447a-a42d-252b0ca2dd4c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXW/TMBT9KyPPbeQkTWj7gibQJCRgEpv2ApN1a9+0Fk4cbKddqfrfuU7SrmIdILRH3upzv865uae7yLS+ab27NZfOqWUdzb/cjyJVB4x+76IaKozmkTC1VF6ZmnfAKFqDbkNA1R6XFkLoogSlW4tvKCyVazRs736fJVZKS4vD1AYs9fZoo/nul5DfNsg1LFBTsxtvVb2kciXpVTIok5lIRJYWWcpYOp0kiyJbJKnMACGjvEPh24OIiw8dMnpWXZhHuDtMMlYGWgkbRfjgsZZIo0vQDkdRBbUEb+z2iFgEeV3rR2BF+qldFJIfnPpBvdM8D4klkkaBffD45MP6elisjBJ43QSCPeJhoYcaYXRb1Z96HWHxWEKr/WHxhLSO+mETSAcWA6XyZmU2nw8Dr1TdCRyC2gjQxxd4WsOi9ejCh0GNFTXiFTQNLYc31qxVV0xcqnip6RGX2mxoaLioGEQgHtOOIL4i/F0H34FVQcVHakPFPc0FOCV4d33UzluSsO/Wwr+3gVAvcJDC+21QghNWNf6S5qxxYL0fPT3dk6vd7bLJa5YmWIzlLM3Hk1TMxrMyleNpgdOkENksRxZz3pPnzoNvHeexMBL3+1dfW8YyyZ4e+ss1fglvzCAv84Tl570xKc5544wrnjdE+gdDhE/4l35gjP03xKkhlOP9YQ/auuH/7If7cPz9BNffjUShHBG5Ddj7wz9+CGzpAJQ4hTbGfgsSHrH9TyFbpbQ7BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c66fa7b5c368c710ae86ffbc0501310e</block>
+        <comment/>
+        <connected_to>ee583a0b-fc94-447a-a42d-252b0ca2dd4c</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>605e906d-68a3-4d8e-a343-59a3fc0929f8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:39:03</sys_created_on>
+        <sys_id>826fa7b5c368c710ae86ffbc0501310f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <ui_id>7c2d05e1-f43e-42ed-9376-a5e4db0346e0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1b19a7f5c328c710ae86ffbc05013144</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>d319a7f5c328c710ae86ffbc05013145</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <ui_id>605e906d-68a3-4d8e-a343-59a3fc0929f8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V227TQBD9FeRny3Ji0lR5q0CVkKAVtOoLtNZ4d5ysWO+avSQ1lv+dWV+SqG0AISReyJP37FzOmZ2jtJH2rvbO3uoLa8VaRavP93EkVMDou40UVBitIqYVF05olfdAHG1B+nBBn1zYWkJzd0DYRkhucKxWg6EchyZatU+uXFNjLqFASYk3zgi1pnTB6VRwmLMifb3M0myWpenZbM7my6yk3xksFynFTYlvJnKv3vdIfJJ16Ee4nTppwwOtWZrGET46VBypdwnSYhxVoDg4bZo9YhD4tZIHYCOUGyRX8GjFdyo+XyxCYIkkko3z2B/zcVbTmLRgeF0HhgPioJDTDLX0lboahIQpYwleuqMpe0v1sA6kA4uRUnmz0btPU8NLoXqF46XUDOT+BI7mUHiHNrwMSqyoUF5BXdN08troreiTiUuVrCUdklLqHTUNq5IAC8QTmhEkl4S/7eE7MCKo+EBlKLnr1efffOg76BgZ54NoCrDMiNpdULktjuS6+PnqHW1d2/ZEtmOvhJ4B1wb6p7aeMbS26774NM24Mx4frj4+zTDoTJMz7ZUbI9kQ/9PA59v+D5n8DZfx5Sw7L0+57Jy95LIX/HXaWvNfWStM5TedlYZa/601WYue0OaDd0ZtffM/ttx98NfQwQ6Lw5EJS0RuA/Zu+lMIFw1tgGDH0E6br0HCAet+AL0+8F5eBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3967d775c3a4c710ae86ffbc05013190^sys_idNOT IN1f19a7f5c328c710ae86ffbc0501314e,db19a7f5c328c710ae86ffbc0501314f"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>3967d775c3a4c710ae86ffbc05013190</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.retry_timeout}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>1f19a7f5c328c710ae86ffbc0501314e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:11:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d9d1f1d4-14c9-4af4-a963-e52e53a4f297</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>3967d775c3a4c710ae86ffbc05013190</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>d9d1f1d4-14c9-4af4-a963-e52e53a4f297</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>db19a7f5c328c710ae86ffbc0501314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:11:32</sys_updated_on>
+        <transform_compositions>[{"id":"1c07dd02c303201027d44077d840dd07","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1000","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="multiply">28c65502c303201027d44077d840dddd</transform_definition_id>
+        <ui_id>e62917b8-633a-4794-9c0c-61022a1769ce</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3967d775c3a4c710ae86ffbc05013190^sys_idNOT IN031967f5c328c710ae86ffbc050131ef,0b19a7f5c328c710ae86ffbc0501311e,431967f5c328c710ae86ffbc050131f4,831967f5c328c710ae86ffbc050131de,8b19a7f5c328c710ae86ffbc05013123,db19a7f5c328c710ae86ffbc0501312a,f82cf3fdc3a8c710ae86ffbc0501313c"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=08276e3d-40c1-475a-9a41-4b4cffadc428</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>retry_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Retry Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</model>
+        <model_id>3967d775c3a4c710ae86ffbc05013190</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3967d775c3a4c710ae86ffbc05013190</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>031967f5c328c710ae86ffbc050131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:11:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f41ae98c-faf0-4b01-8465-6eea2c410dbc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>integration_error_message</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Integration error message</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</model>
+        <model_id>3967d775c3a4c710ae86ffbc05013190</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3967d775c3a4c710ae86ffbc05013190</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>0b19a7f5c328c710ae86ffbc0501311e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:11:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=7cda0bf2-7664-4c86-9654-f6e7c7b73b48</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>retry_timeout</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Retry Timeout</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</model>
+        <model_id>3967d775c3a4c710ae86ffbc05013190</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3967d775c3a4c710ae86ffbc05013190</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>431967f5c328c710ae86ffbc050131f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:11:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=0ae501d7-9738-480f-811c-a2ac6363c3b9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>active</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Active</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</model>
+        <model_id>3967d775c3a4c710ae86ffbc05013190</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3967d775c3a4c710ae86ffbc05013190</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>831967f5c328c710ae86ffbc050131de</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=79711751-2eec-4362-b6b1-134652e9bc1a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>integration_success</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Integration Success</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</model>
+        <model_id>3967d775c3a4c710ae86ffbc05013190</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3967d775c3a4c710ae86ffbc05013190</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>8b19a7f5c328c710ae86ffbc05013123</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=22851337-c3f2-4486-ad01-ff3d0d7ec1f2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_try</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Current Try</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</model>
+        <model_id>3967d775c3a4c710ae86ffbc05013190</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3967d775c3a4c710ae86ffbc05013190</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 13:11:32</sys_created_on>
+        <sys_id>db19a7f5c328c710ae86ffbc0501312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 13:11:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cf6d7b7e-07c8-4bda-9a4e-141c67a95d27</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>usd</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>USD</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</model>
+        <model_id>3967d775c3a4c710ae86ffbc05013190</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3967d775c3a4c710ae86ffbc05013190</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:34:40</sys_created_on>
+        <sys_id>f82cf3fdc3a8c710ae86ffbc0501313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:34:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>usd</element>
+        <help/>
+        <hint/>
+        <label>usd</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_3967d775c3a4c710ae86ffbc05013190</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:24:26</sys_created_on>
+        <sys_id>cbc9bbb9c3a8c710ae86ffbc050131db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27800</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>convert_brl_to_usd</internal_name>
+        <label_cache>[{"name":"347021e6-d925-42c9-9f2d-86e816c395e0.usd","label":"3 - convert BRL to USD➛USD","reference_display":"USD","type":"string","base_type":"string","usedInstances":{"fb5e7edc-c4e5-4dc3-983b-928adbc261fe":["usd-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5c0bb77d-7bd4-4e69-b05c-e03c5d87c83f"}},{"name":"flow_variable.retry_timeout","label":"Flow Variables➛Retry Timeout","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"c6a77164-5b91-42c2-8cdb-e804c47c4b95":["conditions"],"c3469816-44f7-4371-bcb6-49fd5f656f44":["seconds"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7cda0bf2-7664-4c86-9654-f6e7c7b73b48"}},{"name":"347021e6-d925-42c9-9f2d-86e816c395e0.__action_status__.code","label":"3 - convert BRL to USD➛Action Status➛Code","reference":"","reference_display":"Code","type":"integer","base_type":"integer","usedInstances":{"ee583a0b-fc94-447a-a42d-252b0ca2dd4c":["condition"]},"attributes":{}},{"name":"flow_variable.current_try","label":"Flow Variables➛Current Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"605e906d-68a3-4d8e-a343-59a3fc0929f8":["condition"],"024f100b-cb85-4453-ad31-d70f66a580de":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"22851337-c3f2-4486-ad01-ff3d0d7ec1f2"}},{"name":"flow_variable.retry_count","label":"Flow Variables➛Retry Count","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"605e906d-68a3-4d8e-a343-59a3fc0929f8":["condition"],"024f100b-cb85-4453-ad31-d70f66a580de":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"08276e3d-40c1-475a-9a41-4b4cffadc428"}},{"name":"flow_variable.integration_success","label":"Flow Variables➛Integration Success","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"605e906d-68a3-4d8e-a343-59a3fc0929f8":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"79711751-2eec-4362-b6b1-134652e9bc1a"}},{"name":"c3469816-44f7-4371-bcb6-49fd5f656f44.duration","label":"6 - Copy of Convert seconds into Duration➛duration","reference_display":"duration","type":"glide_duration","base_type":"glide_duration","usedInstances":{"6f4b6c9e-1042-4b7e-b9a9-1a3c60cf3a93":["timer_duration"]},"attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"90f8669f-b17c-4658-a65a-3c83d26f622e"}},{"name":"flow_variable.usd","label":"Flow Variables➛USD","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"e0448035-9009-4c5e-b4cf-d6530b373c0c":["usd-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cf6d7b7e-07c8-4bda-9a4e-141c67a95d27"}}]</label_cache>
+        <master>true</master>
+        <name>Convert BRL to USD</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c6c7ffdc3a8c710ae86ffbc050131e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:07</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6c6c7ffdc3a8c710ae86ffbc050131e3^id=6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6c6c7ffdc3a8c710ae86ffbc050131e3^sys_idNOT IN6c6c7ffdc3a8c710ae86ffbc050131e4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6c6c7ffdc3a8c710ae86ffbc050131e3</id>
+        <name>Convert BRL to USD</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:44</sys_created_on>
+        <sys_id>6c6c7ffdc3a8c710ae86ffbc050131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:44</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6c6c7ffdc3a8c710ae86ffbc050131e4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=6c6c7ffdc3a8c710ae86ffbc050131e3^sys_idNOT INec6c7ffdc3a8c710ae86ffbc050131f2"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=38f73ce9-5e51-4a85-afa6-71669dee3037</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>usd</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>usd</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</model>
+        <model_id>6c6c7ffdc3a8c710ae86ffbc050131e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_6c6c7ffdc3a8c710ae86ffbc050131e3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:44</sys_created_on>
+        <sys_id>ec6c7ffdc3a8c710ae86ffbc050131f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ec6c7ffdc3a8c710ae86ffbc050131f2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6c6c7ffdc3a8c710ae86ffbc050131e3^sys_idNOT IN306cbffdc3a8c710ae86ffbc0501315b,f86cbffdc3a8c710ae86ffbc0501315c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="convert BRL to USD">d705efe5c3684710ae86ffbc050131ff</action_type>
+        <action_type_parent display_value="convert BRL to USD">effbaa29c3a04710ae86ffbc05013172</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>d705efe5c3684710ae86ffbc050131ff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>605e906d-68a3-4d8e-a343-59a3fc0929f8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>306cbffdc3a8c710ae86ffbc0501315b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <ui_id>347021e6-d925-42c9-9f2d-86e816c395e0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=306cbffdc3a8c710ae86ffbc0501315b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Copy of Convert seconds into Duration">05daa7f9c328c710ae86ffbc05013185</action_type>
+        <action_type_parent display_value="Copy of Convert seconds into Duration">5daaafb9c328c710ae86ffbc050131ab</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>05daa7f9c328c710ae86ffbc05013185</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>024f100b-cb85-4453-ad31-d70f66a580de</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>f86cbffdc3a8c710ae86ffbc0501315c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <ui_id>c3469816-44f7-4371-bcb6-49fd5f656f44</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/42Sy27bMBBF/4VrWZAa2Za9KxIECNA2QNNmEwTCmBzaBChS4cOJKvjfS5qMkiabLnk4jzt35mEigpEtaTYMYM039OJLS9d1BdiuON/RalnVF3VLSUEU9BgiLVKtmA3gCNJHMk1c6ufuCEbATmJp0Jmxc6JH7d3pFCKZsIOE8T4nBEIPQjKDimwfHgsygAnFHRqynT58/a86CTuU/8j7pNeNQwRCOdyHVgl8y3k3M9WGRSF1QfDFoWIYFHCQFgvSg2LgtBlnYhDYrZJv4BDKpxF7eLHiT+jYVDGOY5iJ5vHnZ5etSZhfgYM7Zzx13sxOaUHRJjcYcvDSXb5nKeB2cEKrlOLiGnK2lr5XP5IVZC7wbhPeBhE4xEGj8jwGvzvo55+vKq+FOnuSP6WmIOcXOGfEzruoZyJe/Ppoc0KfjUaJfejZ9TAMQu27weijOPcJsvtyL8OjPJ8WQyv2qgQaZyzDCqC8DvzqjO/z3X0PZXK/30o8ebyJp1PVbbMBtlw0y9Vm0XAKC6jbakHXq7pZVW3dcCCngtjRXkqw9s2qsKPuycdBk3HZoi65HFOoEYP7GkQdMbtxevwLFqg0xFEDAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f86cbffdc3a8c710ae86ffbc0501315c"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6c6c7ffdc3a8c710ae86ffbc050131e3^sys_idNOT IN306cbffdc3a8c710ae86ffbc05013158,386cbffdc3a8c710ae86ffbc05013141,746cbffdc3a8c710ae86ffbc0501313f,786cbffdc3a8c710ae86ffbc05013159,b46cbffdc3a8c710ae86ffbc05013152,f06cbffdc3a8c710ae86ffbc05013150,f46cbffdc3a8c710ae86ffbc05013156,fc6cbffdc3a8c710ae86ffbc05013153"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0bc9fbb9c3a8c710ae86ffbc0501312a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <flow_variables_assigned>integration_success,usd</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id>7c2d05e1-f43e-42ed-9376-a5e4db0346e0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>306cbffdc3a8c710ae86ffbc05013158</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:07</sys_updated_on>
+        <ui_id>fb5e7edc-c4e5-4dc3-983b-928adbc261fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1X22obMRD9laJnr7vaXe8lbyEmEGgbqJ28hGBmdbFFtZestElc43/vyLu+xAmFQFpa8JO1Z6TRmTM6DF6RqrV1a820OjdGzUtydnc/IKp0GK5XRHFyRsiAlFAIXKnSinkDVlXlzLSMCWMw+Ai6dVGKa65MrWF520O2wZ8BYQuleSP6/DU0mM6KhpytjkKb+9KcZpDIEQuDlCXUB5HGUubMH/k0pEGICTXkQuPWqz2hT5Mdod+ytcvaBfOq0gLKHvjS55si38+XoI1jXTXccfQHRDxbUXKB5KSLDUgBJQdbNcsd0gjg16XeAwu8vhOvgGejfuKlke/2SYHlMtHFdp+zXrkOlmOwMEH1mG2bfitbVApr6ITiQkKr7cUh1m24rl3B3RELud6ernRblN86ZcguwbZRsq+5h8cv27iNtgZ5itpp4YrrK5WTRfX0fVvIpSo3svVBXTHQuy+wtlF5ax3lFWnV9LgZHfRmO4QWBV47K6CuVTmf1U31qDZXYXHFcK7xYyh19YQU3WMeAnNKDLFRMLxEfLyBb6FRTpavmAYPuytvSvXQiiv39pIsoTQZUS8QgnlRGAdeHufUo2EUjwKR5YwCWQ+IWZoLDcbsBcVOzh5aV2snb6/SrOuFO8IaVdtzJPUoekHWg1cWaw0/sNRqFUaJH1ARezwLRl4UsMzLZMC9NBYpjVmYjYQ/xEPr9Wv3vfP0+1wq04DJUHIWwhsuDdmBS28m4+MCexcafA7l/MiEky344QZMff/fteAf9NdO5pf22gn9V6zFZMyTPBGen7DUi3IOXgaR8GhEWZxANuJB8oHWuncu6vicZtlplp1m2WmWnWbZaZb9r7OMC6YM8pw6Ulfbf2gusMTHqNgh9FQ1P1yFe2z9C9DbSGvrDQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1b19a7f5c328c710ae86ffbc05013144</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>386cbffdc3a8c710ae86ffbc05013141</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:07</sys_updated_on>
+        <ui_id>605e906d-68a3-4d8e-a343-59a3fc0929f8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW/TMBT9K8jPUZQ2dJ36NnWahDQ2waa9wIhubae1cOzgj3Yh6n/nOnHSah/ABBIv9Ck+vh/nHt+jtkR7V3tnb/WZtWKtyOLTfUKEChh+t0RBxcmCUK2YcEKrogMSsgXpwwV+MmFrCc3dAaEbIZnhsVoNBnMcN2TRProSDBNWDKZ0lb2d51k+ybPsZDKl03le4u8E5rMMC0pYcYmhy4HGm8sOSV7k55o64NYZodbxfBmr3AygNiywmmRZQviD44pxJFSCtDwhFSgGTptmRAwHdq3kAdgI5fqJK3iw4jt2nM5mIbDkOCONcozHIkrVw+U5OEAunjpvRuW0oNz26jBegpdueYz1Add1mLVPcbCSQ7aWvlJXvSRkLHD0Mt4iCV6HSQP1OEd5s9G7jwPLC6E6WeKl1BTkeAKH4q28C3xawiWvsFBRQV2jpEVt9FZ0ycilStcSD2kp9Q6bhvVKgQbiKQoL6QXi5x18B0aEKd5jGUzeJ8Q2dinB2sMsKGLxzQcm/WRxhqKXIaRQI2p3hg22PNLdJ08X+Gh327ajto3dU3xNvjbQrZH1FDW3+/1nn2U5w1fiX64+PM4w3JmmoNorFyNpH//TwKee+YdMXudVNp/kp+VLXj2lz3n1GZe+0qDTXxk0iPKb/sxCrf8G/SOD4jLYovdbnK1r/heNex9c2vcctabCIrXbgL0b/qDCRYPbJegxtNPmaxjqgO1/AEK1RkfqBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9f19a7f5c328c710ae86ffbc05013140</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <flow_variables_assigned>retry_count,retry_timeout,current_try</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>746cbffdc3a8c710ae86ffbc0501313f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:06</sys_updated_on>
+        <ui_id>935b8ad3-2ec1-492c-ae0f-e0edb4c266a7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXWvbMBSG/0rRdRz8odhJ70pKobCt0Ga7GSUc6yMRkz8qS22z0P++I9tJQ9MOCttFqe+kV9LRe471wMFbUjlbO9ssqrOmUauSnP68HRFVeg3HW6I4OSVkREooBI6MsGazZJUrLYr3oJ1XExxz1dQaNj8OJLZWmhvRB63BYAwrDDndvlhqLwmTaJZmcsKSeMqyKAQxTaXMWTgJoyQSEgNqyIXGrdfexcm8d/GqNbupvahKK1Z4ZSd86c9f7tXKcG8oHBHxaEXJBTqRoBsxIgWUHGxlNnvFCOBXpX4W1hi+K08Bj436jTfS0O+TAnNjolvbT5d9jTpZnoOFG2scs870W9m6Ukw0XVW4kOC0nR9q3Yar2qqq7I5YyPXudKVdUX7rykH2AXafBBXXoAlR+0S98z4NebOuHq53Li9U2dakX9QVA72fgbVG5c56P1vi1OJlmTvpuNBCiwLvXBZQ16pcLWtT3av2HrRdjFcaJ2Opqwf05x/iGJjPcYyfAMYXqJ+38g8wyif8FcP0930v1Z0Tl+0TmsZZKhIe0JBFAc0mEMyA4iinTErgjMZT8jQizaaZa2ia51LhN1reOZ9oV7i+RMuuyv4IM6q2Z2jqXvTVeBq9gYdVhUCuDgBJw2NCWu19iNC/IiLpESKLvZM3DA6YfEJMMsYhzGUcZGlKA8qmaTBLJzSQqchYlmdJTv8vJswZ44/hWzyAJDpmJHo3IjyPZvAmIjEcIDLvXJwsWhevWhvw+IR4xPF0EiVJFrAEGaEU8QAeRoGUCQ95Jlgk43+Ix60noPMztFwDLB8MlqHlGlquAZOh5RpargGPj9RyccFUgz4X3tTl7n+XX9jgs1TsUHqozC+f4bP29AcwiQBEORMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8bc9fbb9c3a8c710ae86ffbc0501312c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>11</order>
+        <outputs_assigned>usd</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>786cbffdc3a8c710ae86ffbc05013159</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:07</sys_updated_on>
+        <ui_id>e0448035-9009-4c5e-b4cf-d6530b373c0c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/41TTW/bMAz9Lzonhj0vn7eiRYEC3QqsWS/DYNASnQiVJVcfSbMg/31U5DjZethu5iMpvvdIH5gJvgvercyNc3Kt2fLHgUnBlmz2iS/qul7wEuZ8VuSA82nT1Dyf5EVZiCkbMQ0tUmVwgoItqBCjw6FRZldtwUqoFWaUPR4pL6TrFOxf/lHGN1IJi5HIzxHrwNIMj5YtiZamDw3qUepXeuFD8f/SVlCjGnj/IcLvuxg4b6Ve9/FjX/58Bo0VkVAxYvjuUQukuQ0ohyPWghbgjd0PiEUQT1pdgA3JSOxbeHfyF82b53keKxskLRxTdgir3rkEN3fggagE7oPFsw1GcnTJBYENBOVvr7FU8NR5aXRq8dH0vtuo0OqvyQY2PHBeFCHBEQnsotTIvRfSPG/M7tuZ5b3UJ1f6pDIc1BCBJ+/q4COfAwty9ZfNCflgNCpsaWLVQtcRUnXWbOVpCpFus7WiIDudkcB4vBnwqDCjFUB2T/jdCX7pb+wLPUPNcdx3Ld8CPsSDKefNrOS4GE9wUow/w3wyhgam41kxnS4EYpmXM3YcMbd3twqcuxhFG6reQpSZbOsNqpLHsYVb2fkbIrXF3otjvFMd/7i0mfP9D8vj0pGEVcQerurEnu5U8mtoZ+xrFH/Bjr8Bs4M3d88DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5f19a7f5c328c710ae86ffbc0501314a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>ee583a0b-fc94-447a-a42d-252b0ca2dd4c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>b46cbffdc3a8c710ae86ffbc05013152</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:07</sys_updated_on>
+        <ui_id>024f100b-cb85-4453-ad31-d70f66a580de</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnQdAjNhrfAgcBCiQN0AS5tIGwoiibCEWqfNhRBf17l3rYRuKgCZpjb+bscndmxIFbopytnTX36sIYvpZk+eMxIFx6DH+3RELFyJJQJQtuuZJZDwRkC8L5ArdmJpWd2Q2bCTB2xi3T4DuxqeCmFtA8vKeXbrgoNBsZ1KBxD5bJsn1R4gWOKiMo43Ma0zRZpEkUJV/O4nyR5nFSpMAgxYECciawdTVRn133SPCmJtvUHjdWc7kez9fjlLsJVLrwrOIoIOzZMlkw5FOCMCwgFcgCrNLNHtEMilspDsCGS4vjiG9+Nvw3Lkzmc99YMpRI2VDcH7PRwwEuL8ECUnHUOj220o3ilJnBnIKV4IRdHWNDw23dG91fsZCL6bYSrpLfBkfIfsD0yRBxBkmw2iv11Ecd5d1G7b5PLK+47F0Zi0JREPsTWPQud9bzaQkTrMJBWQV1jY5mtVZb3l9GLlW4FngIS6F2uNS/yBCoJx6isRBeIX7Zww+guVdxg2Pw8kAzB8Np1r9eHIc2MdIFxDRmhc/NHESiu9kv5ykOkkdx2eCPv0I1r+0Fbt6yUUcXvA7DUQ7atue8HWmF1GntR1rddN1PF0UpfdmiGRYzqpy0Xfc6LZ8w8WOZOod5OY+j+elMnS1OZepEmj4YpOQvQfJf8Z05iqLof5D+OUjcZMPzH7X1yz8xR48+NMPOvdeUG6R277Gv03+PLzT4uDg9hnZKP3lRB6z7A0dreo7FBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9f19a7f5c328c710ae86ffbc05013148</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>605e906d-68a3-4d8e-a343-59a3fc0929f8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>f06cbffdc3a8c710ae86ffbc05013150</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:07</sys_updated_on>
+        <ui_id>ee583a0b-fc94-447a-a42d-252b0ca2dd4c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lZRnWaAky7VyKQIHAQqkDdAEubQBsSYpmygtqiRlxzX8712KshM06SNojr2Zs8vdmREH3hHT+bbz7sacOacWDTn9fJcQ1QQMf+9IAytJTgk3jVBemYb1QELWoLtQUI2XCwuhdFKD0p2V77AslGs1bG9/38WXSgsrh60tWJztpSWnu59KSuCQmkKdVTzjRT4pckrz6TibT4p5losCJBQ4UMNcamydHeieXPZI8ksdftsG3HmrmsVwvhymXB9AY0VgldGEyHsvGyGRTw3ayYSsoBHgjd0eEStBXDX6AViifBxHQvO9U99xYV6WobGWKJHLWDwe2eBehOtz8IBUOu7RtojxpVFcumiOkDV02s8eY7Hhqg1S4xUPc324bXS3aj5GR8hxwOFjIdI5JCHboDRQH3TU10uz+XRgeaGa3pWhqA0HfTyBR+/mnQ98dkRqucJBbAVti46y1pq16i8jl1W60HhIa202uDS8whR4IJ6isZBeIH7ew7dgVVDxAcfg5UhzDk5x1r9YHIc2SbJPiNu6mQbnHkSiu+xbFyhGyYM4Fv0JV7hVrT/DzWs56NgnTwPw6O3vdsX4Lc0zORmJKi9H45xXo6rOxWg6kdNswouqlDRlLMphzoPvHGMpN0Lu92++dJQWgj6Ny+sNflnCKijrMqPl8wkbT55L2DPZemGs8j/EKnzTv0wVpfR/rP45VsqxGIZBW7/8FVN1FyIUdx695sohtZuAvT/8+4TCFh+X4o+hjbFfg6gHbP8DlzDXcMcGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c66fa7b5c368c710ae86ffbc0501310e</block>
+        <comment/>
+        <connected_to>ee583a0b-fc94-447a-a42d-252b0ca2dd4c</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>605e906d-68a3-4d8e-a343-59a3fc0929f8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>f46cbffdc3a8c710ae86ffbc05013156</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:07</sys_updated_on>
+        <ui_id>7c2d05e1-f43e-42ed-9376-a5e4db0346e0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7e4ce3bdc328c710ae86ffbc0501314c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>024f100b-cb85-4453-ad31-d70f66a580de</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>fc6cbffdc3a8c710ae86ffbc05013153</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:07</sys_updated_on>
+        <ui_id>6f4b6c9e-1042-4b7e-b9a9-1a3c60cf3a93</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1ZXW/iOBT9K1GeKZvvFN5G7VYaaXZnVVBfVqPIca7BWpNkHacdFvHf106cDyAwZYaOGKlP4Gvn+tx7z7mxYWNmpchLUcyzD0VBF6k5/fvLyKSpssnvGzNFKzCnZlJyJGiWRmKdgzkynxErlR2+5oxiKqJmgZxLaJEztH7SS37XS4zeErykLOGgt8sRl7sI4OZ0szdFE+nBm4Suf2t7oWu5tmtZcWBDEHhhEJMAhbe+dMhQDEwuvdd7GPMa5xH41cdU7pVR3Iw/aRd3jTHjiYJkW9ZIxikgTUCiIYgVMDJXKE2QyPi6tXBAyeeUdYYlTYX0Z6rFXwv6n9zRs9Q6AjI+DPVcO4x03mozuUcCzQQvsSi5XlrDrevSBDyU3VPF0UFZ21Hn4xGYnH6GIR9czw34sPs+/gKOIRVoMeglb2cH/DhbWegECCqZuLtciPYFQnQuFKKrQqzL9zmvpqamq3iHYtYUN2PlKv2z5qvZJuTplNDqJfff1ltZSFSQKworTmqCktkye3ls+PdA0wqrnmQZRqwdISE4jUuhSrMxgcFKOopWKM9puohynj3T6mEZxmq8YHIwJix7kZuqrjJGWAEZS8Wg8YO031fmJ8SpSsAf0o18eDsyi3Vxx1BRdGmQ8oj+LRWSOik6hqhKYfUI5jQXH7CqoIariqaF36uKoCvgUdXaIgkE1LhXv8PGdXafiomdBHZgx6EbOLJPuR4OMAQTANtGE8fq9akelypcRoXLULgMDezVEehmVmW9ske9iaaryXYCv81r+xs0tsrXJTrbUCs41M5Z0vlV+C9ZVEQ1nXVs1eZvoouaSh23LiuEW8t1XWuCfTdshZAkAISEse2APSiEjvID4DTHJfFgUaWqz+2PrfWd2e/Mrsgz8ILebLDrBZNbO7jxPBLeeG5o38Q4lsMJSXwS+AHxvHHz5HZ7KATLmAHO0qQ4WxFAbM/Hx46wMQwcYff10Atpt+Pv2j8dumkOM1d4kH0XxU8UxcFBN8okEFX8nkwQERW4Peo35vNon2Dk2ZZ/hPZO0KP9vDoG8f1zutGD+PpgzrnfuVcoi+7S0eR9vzxD97gYSMb7r/LW0F6JTt+0vrGZfdZmzg/feVoqDt5zmtk9scuUXqPWG4R4HZ26d/aWaQ53RDy/Mez+7PHdXeJtbks2cfzkaG8I3RO94fCW9Aro33tN8q6wP/yU1+YPKmn47TZ6V5hMyxKSkl1YTyT2fXnIPKKnwNk9YsrMG2IJBsmYTKka9VAdQ6sT1jF4VzyPPbsWj39B8bjOrnjwKu2DGxLSrJu+AkGdfw4lM0AcLx8oMFXiqi6/2o9xXxTLa99tpjEtJIS5sn1s/mtQE2sZIcV900vG/1HgO9v2fxceNve1GAAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6c6c7ffdc3a8c710ae86ffbc050131e3^sys_idNOT IN386cbffdc3a8c710ae86ffbc0501315d,f86cbffdc3a8c710ae86ffbc0501315d"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6c6c7ffdc3a8c710ae86ffbc050131e3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.retry_timeout}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>386cbffdc3a8c710ae86ffbc0501315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d9d1f1d4-14c9-4af4-a963-e52e53a4f297</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6c6c7ffdc3a8c710ae86ffbc050131e3</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>d9d1f1d4-14c9-4af4-a963-e52e53a4f297</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>f86cbffdc3a8c710ae86ffbc0501315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <transform_compositions>[{"id":"1c07dd02c303201027d44077d840dd07","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1000","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="multiply">28c65502c303201027d44077d840dddd</transform_definition_id>
+        <ui_id>e62917b8-633a-4794-9c0c-61022a1769ce</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6c6c7ffdc3a8c710ae86ffbc050131e3^sys_idNOT IN306cbffdc3a8c710ae86ffbc05013126,346cbffdc3a8c710ae86ffbc05013130,3c6cbffdc3a8c710ae86ffbc05013115,3c6cbffdc3a8c710ae86ffbc0501311b,b06cbffdc3a8c710ae86ffbc0501312b,b46cbffdc3a8c710ae86ffbc05013135,bc6cbffdc3a8c710ae86ffbc05013120"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=0ae501d7-9738-480f-811c-a2ac6363c3b9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>active</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Active</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</model>
+        <model_id>6c6c7ffdc3a8c710ae86ffbc050131e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_6c6c7ffdc3a8c710ae86ffbc050131e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>306cbffdc3a8c710ae86ffbc05013126</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=22851337-c3f2-4486-ad01-ff3d0d7ec1f2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_try</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Current Try</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</model>
+        <model_id>6c6c7ffdc3a8c710ae86ffbc050131e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_6c6c7ffdc3a8c710ae86ffbc050131e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>346cbffdc3a8c710ae86ffbc05013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=08276e3d-40c1-475a-9a41-4b4cffadc428</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>retry_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Retry Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</model>
+        <model_id>6c6c7ffdc3a8c710ae86ffbc050131e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_6c6c7ffdc3a8c710ae86ffbc050131e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>3c6cbffdc3a8c710ae86ffbc05013115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f41ae98c-faf0-4b01-8465-6eea2c410dbc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>integration_error_message</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Integration error message</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</model>
+        <model_id>6c6c7ffdc3a8c710ae86ffbc050131e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_6c6c7ffdc3a8c710ae86ffbc050131e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>3c6cbffdc3a8c710ae86ffbc0501311b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=79711751-2eec-4362-b6b1-134652e9bc1a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>integration_success</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Integration Success</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</model>
+        <model_id>6c6c7ffdc3a8c710ae86ffbc050131e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_6c6c7ffdc3a8c710ae86ffbc050131e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>b06cbffdc3a8c710ae86ffbc0501312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cf6d7b7e-07c8-4bda-9a4e-141c67a95d27</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>usd</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>USD</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</model>
+        <model_id>6c6c7ffdc3a8c710ae86ffbc050131e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_6c6c7ffdc3a8c710ae86ffbc050131e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>b46cbffdc3a8c710ae86ffbc05013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=7cda0bf2-7664-4c86-9654-f6e7c7b73b48</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>retry_timeout</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Retry Timeout</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert BRL to USD">6c6c7ffdc3a8c710ae86ffbc050131e3</model>
+        <model_id>6c6c7ffdc3a8c710ae86ffbc050131e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_6c6c7ffdc3a8c710ae86ffbc050131e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:45</sys_created_on>
+        <sys_id>bc6cbffdc3a8c710ae86ffbc05013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:35:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>usd</element>
+        <help/>
+        <hint/>
+        <label>usd</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_6c6c7ffdc3a8c710ae86ffbc050131e3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:44</sys_created_on>
+        <sys_id>a46c7ffdc3a8c710ae86ffbc050131fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6c6c7ffdc3a8c710ae86ffbc050131e3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>3967d775c3a4c710ae86ffbc05013190</sys_id>
+        <latest_snapshot>6c6c7ffdc3a8c710ae86ffbc050131e3</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch11-12-16-2025_01-04-2026_2103.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3967d775c3a4c710ae86ffbc05013190"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3967d775c3a4c710ae86ffbc05013190^sys_idNOT IN8d6cbffdc3a8c710ae86ffbc050131a9"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"8d6cbffdc3a8c710ae86ffbc050131a9","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Convert BRL to USD">3967d775c3a4c710ae86ffbc05013190</plan_id>
+        <snapshot>428e7b75c3e8c710ae86ffbc05013141</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:35:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d6cbffdc3a8c710ae86ffbc050131a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:43:08</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
