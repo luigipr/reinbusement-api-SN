@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Reimbursements">3f65fea9c3e04710ae86ffbc0501311e</category>
+        <order>100</order>
+        <property display_value="x_1523510_reimbu_0.reimbursements_integration_base_currency" name="x_1523510_reimbu_0.reimbursements_integration_base_currency">4a473b2dc3e84710ae86ffbc05013193</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-29 20:03:38</sys_created_on>
+        <sys_id>ceddf3a9c32c4710ae86ffbc050131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523510_reimbu_0.reimbursements_integration_base_currency.Reimbursements</sys_name>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_ceddf3a9c32c4710ae86ffbc050131e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-29 20:03:38</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

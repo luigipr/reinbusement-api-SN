@@ -13,7 +13,7 @@
             </choice>
         </element>
         <element label="User Creator" max_length="32" name="user_creator" reference="sys_user" type="reference"/>
-        <element label="Value (USD)" max_length="40" name="value_usd" type="integer"/>
+        <element label="Value (USD)" max_length="40" name="value_usd" read_only="true" type="integer"/>
         <element label="Integration Error Message" max_length="400" name="integration_error_message" type="string_full_utf8"/>
         <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
     </element>
