@@ -24,7 +24,9 @@
 	
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	g_form.clearValue('event_date');
+	g_form.clearValue('incident_date');
+
+	alert('its not possible to pick future dates');
 }]]></script_true>
         <set_values/>
         <short_description>select only past dates</short_description>
@@ -34,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>851b12e5c3204710ae86ffbc050131a2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>select only past dates</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
@@ -42,7 +44,7 @@
         <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
         <sys_update_name>catalog_ui_policy_851b12e5c3204710ae86ffbc050131a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-29 12:58:17</sys_updated_on>
+        <sys_updated_on>2026-05-08 12:45:44</sys_updated_on>
         <table/>
         <ui_type>1</ui_type>
         <va_supported>true</va_supported>

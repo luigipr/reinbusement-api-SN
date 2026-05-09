@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Reimbursements">83bf70c9c3280310ae86ffbc050131b1</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1523510_reimbu_0_reimbursements">state=2^EQ<item display_value="Awaiting Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Awaiting Manager's Approval</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1523510_reimbu_0_reimbursements</name>
+        <order>120</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1523510_reimbu_0.hr_manager</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 14:52:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8af7739c3e8c710ae86ffbc0501312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Awaiting Manager's Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name>sys_app_module_b8af7739c3e8c710ae86ffbc0501312b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 14:52:21</sys_updated_on>
+        <timeline_page/>
+        <title>Awaiting Manager's Approval</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

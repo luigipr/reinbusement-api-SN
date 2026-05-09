@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">9dc5bfb1c3a8c710ae86ffbc05013195</canvas>
+        <component display_value="Column">2bd5dc19a7ad083941b7c992a966dd78</component>
+        <component_props>{"filterConfigurations":[],"showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","chartVariation":"stacked","extensionType":"bar","showContinuousLine":true,"showMarkers":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":true,"sortByOrder":"desc","showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"useCurrentDateForEnd":false,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"description":"reimburse","componentId":"evy2yow9","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Reimbursements","sourceType":"table","tableOrViewName":"x_1523510_reimbu_0_reimbursements","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE1MjM1MTBfcmVpbWJ1XzBfcmVpbWJ1cnNlbWVudHMxNzc3NTcxMTU0NTg3","dataCategories":["trend","group","simple"]}],"trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVjRYekUxTWpNMU1UQmZjbVZwYldKMVh6QmZjbVZwYldKMWNuTmxiV1Z1ZEhNeE56YzNOVGN4TVRVME5UZzMxNzc3NTcxMTU2Mjg2"}]},"metrics":[{"dataSource":"dGFibGV4XzE1MjM1MTBfcmVpbWJ1XzBfcmVpbWJ1cnNlbWVudHMxNzc3NTcxMTU0NTg3","id":"ZEdGaWJHVjRYekUxTWpNMU1UQmZjbVZwYldKMVh6QmZjbVZwYldKMWNuTmxiV1Z1ZEhNeE56YzNOVGN4TVRVME5UZzMxNzc3NTcxMTU2Mjg2","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE1MjM1MTBfcmVpbWJ1XzBfcmVpbWJ1cnNlbWVudHMxNzc3NTcxMTU0NTg3","groupByField":"incident_date","metric":"ZEdGaWJHVjRYekUxTWpNMU1UQmZjbVZwYldKMVh6QmZjbVZwYldKMWNuTmxiV1Z1ZEhNeE56YzNOVGN4TVRVME5UZzMxNzc3NTcxMTU2Mjg2","isRange":true,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":false}],"headerTitle":"Daily Refund Quantity","xAxisTitle":"Days After the event"}</component_props>
+        <h>20</h>
+        <name>Daily Refund Quantity</name>
+        <stored_component display_value="Daily Refund Quantity">67f8a4c2c3200b10ae86ffbc050131d5</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 20:25:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c7c0d8ec3240b10ae86ffbc05013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Daily Refund Quantity</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name>par_dashboard_widget_9c7c0d8ec3240b10ae86ffbc05013172</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 20:25:31</sys_updated_on>
+        <visualization/>
+        <w>22</w>
+        <widget_props/>
+        <x>26</x>
+        <y>17</y>
+    </par_dashboard_widget>
+</record_update>

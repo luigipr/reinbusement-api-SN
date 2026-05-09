@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description>reimburse</description>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>Refunds Awainting for Approval</name>
+        <properties>{"filterConfigurations":[],"scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"hammer-code-fill","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Reimbursements","sourceType":"table","tableOrViewName":"x_1523510_reimbu_0_reimbursements","filterQuery":"state=2","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE1MjM1MTBfcmVpbWJ1XzBfcmVpbWJ1cnNlbWVudHMxNzc3NTY5OTM4NjY4","dataCategories":["trend","group","simple"]}],"description":"reimburse","componentId":"b85raxuo","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"default"},"metrics":[{"dataSource":"dGFibGV4XzE1MjM1MTBfcmVpbWJ1XzBfcmVpbWJ1cnNlbWVudHMxNzc3NTY5OTM4NjY4","id":"ZEdGaWJHVjRYekUxTWpNMU1UQmZjbVZwYldKMVh6QmZjbVZwYldKMWNuTmxiV1Z1ZEhNeE56YzNOVFk1T1RNNE5qWTQxNzc3NTY5OTQxMjMy","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"headerTitle":"Refunds Awainting for Approval"}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 17:30:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e742c4ec3ecc710ae86ffbc05013146</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Refunds Awainting for Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursements" source="x_1523510_reimbu_0">2c9854cdc3e00310ae86ffbc050131a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursements">2c9854cdc3e00310ae86ffbc050131a3</sys_scope>
+        <sys_update_name>par_visualization_3e742c4ec3ecc710ae86ffbc05013146</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 19:29:16</sys_updated_on>
+        <type>Single score</type>
+    </par_visualization>
+</record_update>
